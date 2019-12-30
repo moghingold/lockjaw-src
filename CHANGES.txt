@@ -1,0 +1,720 @@
+0.34a (2007-03-27)
+  * PC: Fixed hidden level in Next at right mode (0.33 regression).
+  * DS: Fixed hidden sprites due to bug in devkitARM R20 libnds
+    (0.34 regression).
+  * DS: New touch screen code should eliminate erroneous low notes
+    played upon pen-up.
+
+_____________________________________________________________________
+0.34 (2007-03-23)
+  * Fixed Move to Back piece set (0.14 regression: dang!).
+  * Separate options for number of previewed pieces above shadow and
+    outside field (requested by kiwibonga, caffeine, and Cubicz).
+  * Option to disable IRS (requested by DIGITAL).
+  * Garbage gimmicks (vs., drill 40, hr derby) replaced with new
+    garbage option (requested by Cubicz).
+  * In garbage style "Vs.", player can choose difficulty 1 through 4
+    (requested by Caithness).
+  * Option for line clear delay, independent of entry delay
+    (requested by kiwibonga).
+  * Garbage style Drill no longer automatically tops out on
+    short playfields.
+  * Garbage style Vs. generates garbage with SZSZ randomizer.
+  * Frequency of Vs. w/Items bananas is independent of randomizer.
+  * Fixed self-clearing garbage (0.33 regression).
+  * GBA/DS: Fixed pause button hiding left and right walls
+    (0.33 regression).
+  * GBA/DS: R button also works as hold piece (requested by
+    PetitPrince).
+
+_____________________________________________________________________
+0.33 (2007-03-08)
+  * New speed curve Rhythm Zero is identical to Rhythm except it
+    operates at 0G instead of 20G (requested by Cubicz and caffeine).
+  * Speed curves that do not use level reset level to 0.
+    Therefore, playing a game of Death then a game of Exponential
+    on GBA/DS no longer shows the level that the player finished
+    Death on as the level during Exponential.
+  * Maximum well width increased to 12 (requested by Zed0).
+  * Hold piece does not reset floor kicks, lock delay time in entry
+    reset, or Rhythm's placement timer.
+  * GBA/DS: More shared code moved to file "ljgbads.inc".
+  * PC: Stops end-of-section sound when game is over
+    (requested by Bloodstar).
+
+_____________________________________________________________________
+0.32a (2007-02-25)
+  * PC: Fixed demo recording (0.32 regression; reported by Rosti LFC)
+  * PC: Option to record all games from the start
+    (requested by cdsboy, DIGITAL, Cubicz, and colour_thief).
+  * PC: Added Play .ljm gimmick:
+    Allegro file selector pops up, and the player can choose the
+    filename of a demo to play back (requested by Lardarse).
+
+_____________________________________________________________________
+0.32 (2007-02-13)
+  * Changed a CPU yield behavior that was affecting battery
+    efficiency on the GBA and DS front ends (reported by Mighty Max).
+  * Removed Low Rider gimmick in favor of option for well height
+    (requested by Matthew).
+  * Option for well width, like Shimizu's Tetris Semipro-68k.
+    Combine this with a low well height to simulate BIG mode of
+    TGM and Heboris (requested by Matthew).
+  * Options for entry delay and sideways delay have "max" added to
+    their description to clarify things (requested by kotetsu213 and
+    Ezzelin).
+  * All speed options given in Hz or G are given in both.
+  * PC: Next above shadow works in all playfield positions (reported
+    by caffeine).
+  * GBA/DS: Added option for soft drop speed (requested by Ezzelin).
+  * GBA/DS: Some shared code moved to file "ljgbads.inc".
+  * GBA/DS: Unavailable hold piece is grayed out.
+  * GBA/DS: Lock delay = no lock works (reported by Ezzelin).
+  * GBA/DS: Fixed frames/ms display of delays (reported by Ezzelin).
+
+_____________________________________________________________________
+0.31 (2007-02-03)
+  * Draws the score and next pieces before blitting the playfield
+    in case a front-end draws the score or next pieces inside the
+    playfield.
+  * In Baboo!, speed curve Zero sets the level to the number of
+    keypresses so far.
+  * PC, GBA: Plays sound effect for end of section in speed curves
+    that use sections (Master, Death, NES, Game Boy).
+  * PC: Option to draw next pieces inside the playfield, above the
+    shadow (requested by caffeine, cdsboy, and Cubicz).
+  * GBA, DS: Blocks within a piece are drawn connected once they lock
+    (TOD parity, requested by Lardarse and Bloodstar).
+  * GBA, DS: Baboo! no longer double-counts console buttons passed
+    through the joypad reading code.
+  * README: "color=image" clone-and-hack error fixed (reported by
+    Bloodstar).
+  * README: Explains black rectangle in upper left corner as an
+    icon for stop (requested by herc).
+  * README: Explains controls on GBA and DS.
+
+_____________________________________________________________________
+0.30 (2007-02-01)
+  * Fixed ARE display in debrief, which could cause a crash in some
+    situations (0.26 regression?).
+  * Garbage no longer self-clears in Cascade gravity (reported by
+    Bloodstar).
+  * In high gravity, land a T with one block over an overhang and
+    rotate it once so that it falls and clears a line.  This is no
+    longer counted as a T-spin.
+  * During a replay, counts keypresses by the replay player.
+  * PC: Scales undersized background images to the size of the window
+    (requested by Bloodstar).
+  * PC: If a piece enters during a skipped frame, a second upward
+    trail is no longer drawn (reported by Bloodstar and caffeine).
+  * PC: "Next at top" layout draws speedometer (requested by
+    matt_hatter83).
+  * PC: Trails option is saved properly (reported by caffeine).
+  * PC: User can customize the game's text and background colors
+    using skin.ini (requested by Bloodstar).
+  * Added rudimentary port to Nintendo DS for people with MAX Media
+    Dock, M3 Pro, SuperCard Rumble, or SLOT-1 cards, which can run
+    DS homebrew but not GBA homebrew.
+  * Moscow Nights removed from lj-contrib due to research into the
+    copyright term extensions enacted by Russian Federation during
+    the 1990s.
+
+_____________________________________________________________________
+0.29 (2007-01-17)
+  * TDS scoring recognizes chains properly (reported by Lardarse).
+  * TDS scoring section factor stops increasing after 190 lines.
+  * Added NES scoring method.
+  * Added scoring for soft and hard drops to options and debrief.
+  * Cascade no longer deletes the bottom row when lines high on the
+    playfield are cleared (reported by Lardarse).
+  * PC: Draws trails when a tetromino goes up or down rapidly.
+    (Option to turn them off.)
+  * PC: Handles dirty rectangles for next pieces and score
+    separately.
+  * Scoring section of README describes all scoring methods.
+
+_____________________________________________________________________
+0.28 (2007-01-04)
+  * Added Cascade gravity, as seen in Quadra, Tetris Worlds Cascade,
+    and Tetris DS Touch.
+  * Master/Death: Level starts at -1, so that the first piece is
+    played at level 0 (requested by Lardarse).
+  * Changed T-spin detection to save whether or not a rotation
+    involved a kick (0: move; 1: rotate; 2: rotate with kick) so
+    that scoring methods such as TDS can score T-spins with and
+    without kicks differently.
+  * Added TDS scoring method (line clears only).
+  * New, more general, possibly easier to understand reshuffle code
+    in bag randomizer (requested by Lardarse)
+  * GBA: Gold and silver square colors added (requested by Lardarse).
+  * PC: Game over in low ceiling no longer fades the area outside the
+    playfield (reported by Lardarse).
+  * PC: Close box interrupts starting and game over animations.
+  * README warns that 4x4 squares mode needs ljconn.
+
+_____________________________________________________________________
+0.27 (2006-12-20)
+  * GBA version includes a valid header (requested by Ezzelin).
+  * Fixed incorrect spawn orientations for Game Boy rotation system
+    (0.25? regression, reported by Lardarse).
+  * Fixed incorrect win/loss sound early in 180 seconds (0.25
+    regression).
+  * New randomizer 10-piece Bag, including the domino and both
+    trominoes.
+  * GBA version now reports entry and lock delays in both frames
+    and milliseconds.
+  * Possibly fixed off-by-one in Game Boy speed curve section
+    computation, which caused an incorrect slowdown in 210-219
+    section (reported by Ezzelin).
+
+_____________________________________________________________________
+0.26 (2006-12-15)
+  * Option to allow game to proceed in the background (requested by
+    Ezzelin).  However, Windows doesn't appear to pass joystick
+    presses to the game running in the background.  FCE Ultra has
+    what appears to be exactly the same problem.
+  * Added Game Boy and NES speed curves.
+  * Options and Game Keys are accessed through title screen, not
+    gimmick selection.
+  * Option to hide playfield without changing the skin.
+  * Rearranged rules section of options to correspond more closely to
+    the sequence of operations for each tetromino.
+  * Soft or hard drop set to "lock on release" no longer produces
+    double locks at 20G.
+  * Disable initial hard drop when set to "lock" and entry delay is
+    greater than 0 but less than DAS delay.
+  * Checks for 4x4 squares top to bottom per comparison with The New
+    Tetris (N64).
+  * Finer grained selections in entry delay (requested by
+    matt_hatter83) and lock delay (requested by caffeine).
+    They now are at 50ms increments at the low end.
+  * Expanded TGM speed curve to 12 sections.  One comparatively slow
+    section at 20G was added to Master before Death-equivalent starts
+    (now Death 0 is equivalent to Master 600, not 500), and one
+    faster section was added to the end of Death based on info posted
+    to wiki by colour_thief.
+  * Added H.R. Derby gimmick:
+    Like Marathon, but every line you clear other than with a
+    home run or a T-spin gives you garbage.
+  * Ready Go animation is 1.2 seconds, not 2.0 seconds.
+  * Preliminary support for Game Boy Advance, with experimental
+    paged options replacing scrolling options.
+
+_____________________________________________________________________
+0.25 (2006-11-28)
+  * Fixed History 6 Rolls deciding between the first piece algorithm
+    and the subsequent pieces algorithm (reported by Lardarse).
+  * Fixed a signedness issue that broke 180 seconds gimmick in the
+    case that a tetromino was kept active between 3:00 and 3:01 (0.24
+    regression; reported by caffeine).
+  * Allows ending the game with a piece in mid-air (0.24 regression).
+  * Removed Arika and renamed Arika+TI to Arika.  For the old
+    Arika behavior, set Options:Floor kicks to 0.
+  * Options screen allows DAS, allowing future versions to make more
+    options and more values for each option available in a less
+    cumbersome way.
+
+_____________________________________________________________________
+0.24 (2006-11-16)
+  * Added Score style to options and debrief.
+  * Choice of LJ or TNT64 scoring is based on chosen score style, not
+    whether 4x4 squares are turned on.
+  * Added Hotline scoring method, where only lines cleared on
+    specific rows count toward scoring.  When enabled, draws white
+    lines through empty spaces in these rows.
+  * New soft drop and hard drop lock setting: Lock on release.  It's
+    a spring-loaded system:  When you press the button, it doesn't
+    lock, but when you let go, it locks (requested by colour_thief).
+  * Option to override lock delay time (requested by caffeine).
+  * Option to limit upward kicks (requested by Needle). This may
+    obviate the difference between Arika and Arika+TI.
+  * Sped up line clear in Master 300-499 to make less of a jarring
+    transition to "death" style timings.
+  * LJM loading fails even more gracefully on wrong format version,
+    properly treating an LJM of the wrong version as not existing.
+  * Fixed bug in 0.23's application switch pausing where switching
+    away while already paused would require two Esc presses to
+    continue (reported by caffeine).
+  * Does not stop play until after the line clear animation finishes.
+    This allows the game to properly update the single, double,
+    triple, etc. counts for the last line that completes the goal
+    (0.19 scoring regression?; reported by caffeine).
+  * Refactored duplicated option loading code.
+  * Options: Ditched parallel struct and array in favor of a
+    single list of named indices.
+  * Corrected Moscow Nights and Kalinka in lj-contrib for greater
+    compatibility with obscure s3m players that can't handle odd
+    numbers of channels (requested by Lardarse).
+
+_____________________________________________________________________
+0.23 (2006-11-04)
+  * Fixed S and Z in Sega 1988.
+  * DUMB has been wrapped in a library called LJMusic and can be
+    turned off at compile time (edit ljmusic.c and makefile) if you
+    don't want to install DUMB.
+  * Added support for Xiph.org's OggVorbis codec to LJMusic
+    (requested by Needle).
+  * Option to ignore sideways movement on first frame (like TGM
+    series) (requested by Needle, seconded by caffeine).
+  * Properly pauses the game when the player switches away from the
+    window (requested by Lardarse).
+  * Fails gracefully (does nothing) instead of crashing when loading
+    replay files of a different format version.
+  * Moved as much as possible below setting display mode so that
+    people porting LJ to other platforms can toss up working alert()
+    boxes earlier (requested by cdsboy).
+
+_____________________________________________________________________
+0.22 (2006-10-23)
+  * Fixed color system change after reloading (0.20 regression?,
+    reported by lardarse).  Should always unpack options just before
+    loading skin.
+  * All numbers in saved states are stored big-endian, making movies
+    compatible between 0.22 for Windows and Intel Mac and 0.22 for
+    PowerPC Mac (requested by cdsboy).
+  * Sega rotation systems renamed to Arika for less confusion with
+    the rotation systems in Sega's Tetris games from 1988 and 1998
+    (requested by Needle).
+  * Added Sega 1988 rotation system (like Arika without wall kicks).
+  * Preliminary Vorbis playback code is included in the source code
+    distribution but has not been activated in the program.
+    (The keys to compiling OggVorbis on MinGW+MSYS are 1. set the
+    prefix to match the MINGDIR you used to build Allegro, and
+    2. disable creation of the shared library.)
+
+_____________________________________________________________________
+0.21 (2006-10-21)
+  * Added new T-spin detection rule "3-corner T no kick", identical
+    to 3-corner T except that a wallkick is not counted as a rotation
+    (requested by kotetsu213).
+  * Options that don't apply because of how another option is set
+    are grayed out with an explanation (requested by Needle).
+  * Debrief tells number of blocks left in the playfield and whether
+    saved state was used (requested by caffeine).
+  * Debrief tells what level the player stopped on.
+  * Added support for saving input stream ("demo" or "movie") to file
+    "demo.ljm".  Press [ to start/stop recording and ] to start/stop
+    playback (requested by caffeine).
+  * Pieces are actually random again (0.20 regression).
+  * New lockdown mode: Entry reset.  Instead of resetting, the lock
+    timer pauses while the piece is falling (requested by caffeine).
+  * No +20 for banking more than 5 beats (requested by caffeine).
+  * 250 ms entry delay option (requested by matt_hatter83).
+  * Entry and sideways delays in Master and Death use the shorter of
+    the speed curve's delay and the user's delay.
+  * Added soft drop speed to options.
+  * Added settings 8.6 Hz through 6.7 Hz to Sideways speed.
+
+_____________________________________________________________________
+0.20 (2006-10-15)
+  * Fixed color system change after options (0.19 regression).
+  * Restored ability to hold first piece (0.17 regression?).
+  * Requires down to be re-pressed only when entry delay is less
+    than sideways delay.
+  * In modes with ARE, allow initial hard drop even on first piece
+    (requested by caffeine).
+  * Visual refresh in Game Keys.
+  * Game Keys ignores keypresses for 1/4 second after each key is
+    set, which should fix problems with GameCube to USB adapters
+    (requested by Caithness).
+  * All platforms use a single randomizer, whose state is associated
+    with the playfield.
+  * ARE is a binary option again, as several speed curves ignored the
+    old version's difference between constant and decreasing.
+  * Moved version display to title screen.
+  * Sound effect for win differs from that for game over.
+  * Sound effect for rotating a piece on its first active frame.
+  * Begun to add assertions, causing game over if they fail.
+  * Added support for saving the state of the playfield.
+    Press [ to save or ] to load.  Movies might be next.
+
+_____________________________________________________________________
+0.19 (2006-09-28):
+  * Use of SRS or Sega colors is determined by a flag set for each
+    rotation system.  The rule is that rotation systems that use
+    bounding box rotation should use SRS colors.
+  * Added TOD M4 rotation system (face up entry + bounding box
+    rotation + roughly TGM style compensation).
+  * List items in Options flicker much less.
+  * Beginning of an actual title screen.
+  * Removed Rhythm gimmick in favor of speed curve option.
+  * Added Master and Death speed curves (requested by Needle).
+    Death hasn't been tested thoroughly because the developer
+    sucks at death.
+  * Blits only those playfield rows that have changed, making
+    animation smoother on old, cheap, or mobile video cards
+    (requested by cosmonaut).
+  * Rhythm speed curve no longer has what feels like a big elbow
+    (requested by caffeine).  Specifically it gives 20 points
+    instead of banking more than 5 pieces' worth of time.
+  * Doesn't draw the state after the tetromino spawns but before
+    initial rotation has taken effect (requested by Needle).
+  * Added sound effect for hold piece (requested by Needle).
+  * Land and lock sound much better (requested by Needle).
+  * Shuffle columns (seen only in Vs. w/ Items) correctly disconnects
+    blocks horizontally.
+  * In Square mode, T-spins cause avalanches.
+  * In Square mode, lines containing a piece of a 4x4 block are worth
+    more, and homers are worth less.
+  * Fixed ignoring diagonal presses (0.17 regression).
+  * Created a new struct "LJPrefs" to hold preferences set by the
+    player in the Options menu separately from the parameters
+    that the game actually uses. This allows gimmicks to override
+    preferences more cleanly.
+  * Added support for future scoring methods where the score per line
+    at a given point in the chain is based on a formula.
+  * Created a union that combines the new struct with the array that
+    the Options menu edits to improve maintainability of Options.
+
+_____________________________________________________________________
+0.18 (2006-09-16):
+  * Fixed Classic lock reset (unknown regression).
+  * Fixed misbehavior when hold is pressed after a piece
+    lands but before it locks (0.17 regression).
+  * Shadow is drawn using the piece's color, at 25% opacity,
+    from rows 4 and 5 of ljblocks.
+  * Fixed shadow option saving (0.17a regression).
+  * Added option to hide shadow color or change shadow opacity.
+  * Split Sega rotation system into one with and one without
+    TGM3's upward kicks.
+  * Added NES and Game Boy rotation systems.
+  * README: Illustration of game play has an image map.  The reader
+    can select (hover over) a region of the screenshot, and the
+    browser will show the title of the region as a tooltip.
+  * BPM is now called speed level in preparation for other
+    speed curves (including TGM and TA Death).
+
+_____________________________________________________________________
+0.17 (2006-09-13):
+  * Option for sticky gravity per color, as seen in The Next Tetris.
+  * "Ready, Go" is centered, even in low ceiling gimmicks.
+  * Added TGM3's upward kick to Sega T rotations.
+  * Added Tengen rotation system.
+  * Removed TGM gimmick in favor of entry delay option.
+  * Initial hold works at any time.  The key can be pressed and
+    released during entry delay or even during line clear delay.
+  * Initial actions do not inflate keypress count
+    (helpful in Baboo! with entry delay).
+  * Draws hold piece in garbage colors when it is not available.
+  * Options scroll.
+  * Option to draw next pieces to right in constant size or above.
+  * Better looking scroll bar in options.
+  * Debrief: In naive gravity, reports T-spin singles, doubles,
+    and triples separately from non-T-spins.  In other line
+    clear gravity modes, "home run" is now called "quad".
+  * Fixed a buffer overflow bug in sticky: fillCLoop() no longer
+    treats the right side of one row and the left side of the
+    row above it as one region.
+  * Clarified manual as to the purpose of the Vs. gimmicks.
+  * Separated platform specific stuff into a separate struct.
+  * Refactored scoring into a separate function for future movement
+    to gimmick and option control.
+  * Debrief formats the report into a string and then writes it
+    to a file and the screen all at once.
+  * Refactored play() to move everything in the game loop that is
+    not platform specific out of ljpc.c into new file ljplay.c.
+  * Wall kick table is no longer flipped, making it easier to add
+    new rotation systems.
+  * Unified counterclockwise and clockwise rotation code.
+
+_____________________________________________________________________
+0.16 (2006-09-03):
+  * Fixed instant sideways speed (0.15 regression).
+  * In countdown modes, debrief screen displays whether clear was
+    successful.
+  * 6-piece Bag no longer makes Vs. ridiculously easy.
+  * Counts score and garbage separately for future shift to
+    gimmick-controlled scoring.
+  * Displays score instead of garbage on the play screen.
+  * Counts singles, doubles, triples, and homers, and displays them
+    in debrief.
+  * Option to hide falling piece in addition to shadow.
+  * Can load mod, xm, or it music in addition to s3m.
+  * Moved skin description from lj.ini to skin.ini, and the name of
+    this skin description file name can be changed with the Skin=
+    command in lj.ini.
+  * Closes lj.ini when reading it.
+  * All vkey->action game key handling code moved to macro.c for
+    future refactoring.
+  * Build process uses automatic generation of C files' dependencies
+    for future refactoring of header files.
+  * Added two versions of NES-style blocks to lj-contrib:
+    one by tepples and one by deepdorp.
+
+_____________________________________________________________________
+0.15 (2006-08-27):
+  * Options for DAS delay, number of next pieces, and window vs.
+    full screen.
+  * Options scrolling doesn't cause the dialog's title and
+    instructions to flicker.
+  * Small font's 5 glyph is the same width as other digits.
+  * Fixed O shape table.
+  * Macros (vkey->action mappings past the first 8) are in a
+    lookup table in the new file macro.c.  This paves the way
+    for a future macro editor.
+  * Added macros Alt. Firm Drop and Alt. Hold.
+  * Game Keys displays names for all keys, not just printable keys.
+  * In Sega rotation mode, reads block images from ljblocks-sega.bmp
+    and ljconn-sega.bmp if available.
+  * If ljbg.jpg is not available, uses a plain white backdrop.
+  * Reads file names for block images, background image, and music
+    from lj.ini, which the player can edit with a text editor.
+  * New "6-piece Bag" randomizer is one stick short of a bundle.
+  * Added an arrangement of the minuet from JS Bach's French Suite
+    in B minor (BWV 814) to lj-contrib.
+
+_____________________________________________________________________
+0.14 (2006-08-18):
+  * pause() renamed to pauseGame() to fix namespace collision on
+    platforms with unistd.h (Linux, BSD, Mac).
+  * Gimmick settings for initial gravity, ARE, and ceiling height
+    are initialized from a lookup table.
+  * History 6 Rolls randomizer uses correct initial history (ZSZS)
+    and correct selection for the first piece (I, J, L, or T).
+  * Blocks are drawn connected within each tetromino if ljconn.bmp
+    is present.
+  * Corrected connection table for O tetromino.
+  * Rhythm's BPM counter increases after every 64 beats, not every
+    64 tetrominoes.
+  * Added Low Vs. gimmick:
+    Like Vs. CPU with a low ceiling.
+
+_____________________________________________________________________
+0.13 (2006-08-15):
+  * Hard drop lock option "Zangi" renamed to "Slide".
+  * Added soft drop lock option.
+  * Ignores diagonal presses differently: instead of pretending the
+    keys are up, it pretends that they haven't changed from the last
+    frame.  UP, UP+RIGHT, UP no longer makes a double hard drop.
+  * Esc pauses the game and music instead of immediately quitting.
+  * Added contributions from cdsboy to lj-contrib.
+
+_____________________________________________________________________
+0.12 (2006-08-13):
+  * Creates lj.ini if it doesn't exist, instead of crashing on
+    startup.
+  * Added half-size Aver16 font.
+  * Zero gravity (as in Baboo!) + Zangi hard drop = land and lock,
+    instead of just sit there
+  * Option to use classic (Game Boy style) or step-reset (TGM style)
+    lockdown instead of move-reset (SRS style) lockdown.
+  * Contains connection tables for all pieces.  Not used yet,
+    but will be used for Cascade (where gravity is based on shapes
+    of pieces), Square (which forms big squares only out of whole
+    tetrominoes), and Bombliss (which doesn't place a bomb in a block
+    that has blocks on opposite sides of it within the piece, such as
+    the middle of an I, J, L, or T).
+  * Pieces can carry bomb blocks within them.  Not used yet,
+    but will be used for Bombliss.
+  * Option for sticky gravity.  This will also be used for Bombliss.
+  * Options rearranged: game on top, control in middle,
+    view on bottom.
+  * Options menu uses a smaller font and scrolls if necessary (but
+    it's not necessary just yet).
+  * Zero isn't wider than other digits in the large or small font.
+  * Split debrief screen into debrief.c.
+  * Debrief displays lockdown and line clear gravity type.
+  * List of options in debrief is written with smaller font.
+  * Config screen does a better job of ignoring simultaneous presses
+    on USB joystick adapters that map the Control Pad to both axes
+    and buttons (such as EMS USB2).
+  * Main menu and options always respond to the arrow keys (in
+    addition to the keys set in Game Keys), allowing players to
+    reset Game Keys even when the keys have become corrupted.
+
+_____________________________________________________________________
+0.11 (2006-08-01):
+  * Added Instant, 20 Hz, 15 Hz, and 12 Hz sideways speeds.
+  * Added randomizer History 6 Rolls, very similar to Move to Back
+    but sometimes repeating recent tetrominoes.
+  * Allows separate wall kick tables for clockwise and anticlockwise
+    rotation.
+  * New "theta=default" in piece->block expansion reflects the
+    rotation system's initial orientations for new pieces, next
+    pieces, and the hold piece.
+  * Option to use Sega rotations instead of SRS rotations.
+  * Option for ignoring diagonal presses.
+  * Option for locking or not when using hard drop (Up).
+  * Option to turn off smooth gravity animation.
+  * Option to use TNT style T-spin detection instead of TDS style.
+  * Debrief displays rotation system and T-spin detection.
+  * Saves options to lj.ini.
+  * Split options screen and wall kick table into separate source
+    code files.
+  * Plays music in stereo.
+  * Site distributes contributed graphics and music files to
+    replace the defaults.
+
+_____________________________________________________________________
+0.10 (2006-07-27):
+  * Set default full screen color depth to 16-bit which may be more
+    compatible than 15-bit.
+  * Press Print Screen to save the current screen as ljsnap.bmp.
+  * Plays next piece sound whenever the next column moves up.
+    0.08-0.09 didn't do so for the first hold in a game.
+  * No longer tries rotating right when rotating left fails.
+  * Handles DirectDraw amnesia (screen corruption in Alt+Tab)
+    correctly in menu, game play, and debrief screens.
+  * Asset and video buffer cleanup consolidated into one function.
+  * Gravity speeds up 50% faster.
+  * Added options menu for selecting sideways movement speed and
+    randomizer.
+  * Added more randomizers: 14-piece bag, move-to-back (TGM style),
+    memoryless (classic), and SZSZ (used in the well-known proof
+    that memoryless cannot be played indefinitely).
+  * Debrief screen displays date and time of report generation as
+    well as randomizer and sideways speed, and logs what it displays
+    to lj-scores.txt.
+  * Moved all gimmick-specific code from lj.c to new file gimmicks.c.
+  * Built against Allegro 4.2.0.  (Users of previous versions will
+    need the new DLL.)
+  * Countdown based gimmicks (40 lines, 180 seconds, Baboo!,
+    TGM World, Drill 40) use the same countdown variable for
+    end state detection that they had used for countdown sound.
+  * Support for tracked music using DUMB.
+  * Manual is HTML.
+
+_____________________________________________________________________
+0.09 (2006-07-16):
+  * Reverted sideways kicks of I tetromino rotating from horizontal
+    to vertical based on testing I-I interactions in Tetris DS.
+  * Key pretending is more consistent.
+  * TGM World stops at 290 lines, more like Tetris The Grand Master.
+  * In gimmicks with ARE (currently TGM World), allows initial
+    hard drop.
+  * Licensed as free software under GNU General Public License.
+  * Fixed incomplete first bag (0.08 regression).
+  * Has its own icon instead of the wall kick editor's icon.
+  * No double initial rotation when using initial hold in TGM World.
+  * Input actions are a 32-bit record for future recording.
+  * Hidden next piece is a separate variable, which next piece
+    sound also respects, fixing Items.
+
+_____________________________________________________________________
+0.08 (2006-07-08):
+  * Plays sounds for the next piece like TGM.
+  * No longer allows 800x552 window now that 0.08 displays the
+    gimmick name.
+  * Supports spawn delay and line delay.
+  * Supports initial hold and rotation.
+  * Supports variable garbage randomness.
+  * Begun to move gimmick code out of core.
+  * Added TGM World gimmick:
+    Standard S.M.G., except there's a half-second delay before each
+    tetromino, and a half-second delay after each tetromino that
+    forms at least one line. So if you want fast play, make more
+    lines at once.
+  * Added Drill 40 gimmick: 
+    Like 40 lines, but the screen starts with 18 rows of garbage.
+    Be prepared to rely on SRS infinite spin for the first few
+    lines until your skill improves.
+
+_____________________________________________________________________
+0.07 (2006-06-30):
+  * Added Baboo gimmick:
+    Standard S.M.G., except there is no gravity, and the game
+    ends after 300 keypresses.
+  * Cleaned up the font a bit.
+  * Corrected wall kicks for I tetromino to match an updated
+    description provided by nicholas.  Specifically, I tetromino
+    prefers kick-down to kick-up.
+  * Removed sound-not-found debug message.
+  * Plays "ready, go!" like TGM.
+  * Bigger font for lines and time.
+
+_____________________________________________________________________
+0.06 (2006-06-25):
+  * Gimmicks are sorted into columns.
+  * Debrief responds to controller mapping.
+  * Debrief shows keypresses per tetromino and garbage per minute.
+  * Loads/saves vkey configuration from/to disk instead of
+    prompting the user every time the program starts.
+  * Build system switched to GNU Make.
+  * Terminal window ("DOS box") hidden.
+  * Responds to window system's close button.
+  * Counts down 5-4-3-2-1 in line or time limited gimmicks.
+  * Icon in the top left corner of the window is customized.
+  * Displays ljbg.jpg in the window's blank space.
+  * Displays blocks from ljblocks.bmp.
+  * Releases the CPU for 5ms per frame when possible, so that
+    background tasks such as a music player can keep up.
+  * Increased sound effects' volume so that music players do not
+    completely overpower them.
+  * Added macros for rotate twice, move far left, and move far right.
+  * Corrected fix to alternation between falling and landed states
+    that occurred especially when sliding a tetromino to the right
+    under high gravity.
+  * Added Items gimmick:
+    Standard S.M.G., except after the first 7 pieces you get
+    random starting orientations, no rotation, and hidden next
+    pieces, and the speed goes to 1G.  Every time you are given an
+    I piece, either you get 2 lines of garbage or the columns of
+    blocks in the well are shuffled.
+  * Fixed scoring tables in README.txt.
+
+_____________________________________________________________________
+0.05 (2006-06-23):
+  * Included readme.txt.
+  * Debrief report shows more decimal places in time and PPM.
+  * Game over plays a simple animation and sound.
+  * Playfield can be resized (with a recompile).
+  * Removed hardcoded key binding help text.
+  * Window is bigger in preparation for wallpaper.
+  * Display mode is 15/16/24/32-bit in preparation for wallpaper.
+  * Added Low Rider gimmick:
+    Standard S.M.G. with an 8-block-tall visible playfield.
+
+_____________________________________________________________________
+0.04 (2006-06-22):
+  * Uses an OS-native bitmap rather than an Allegro bitmap,
+    which may allow faster drawing with some video cards.
+  * Allows play from a keyboard or a joystick.
+  * Presents a key configuration screen when the program starts.
+  * A 500ms delay after the game ends. Drama will come soon to this
+    space.
+
+_____________________________________________________________________
+0.03 (2006-06-21):
+  * Debriefing responds only to Esc, Enter, and keypad Enter.
+  * Compensates for refresh rates other than 60 Hz.
+  * Change log included with program.
+  * Plays sound effects for shift, rotate, land, lock, line, b2b.
+  * Bigger text using the "Aver" font.
+  * Lock delay in Marathon decreases gradually after gravity
+    surpasses 20G.
+  * Reads keys through a bitfield, allowing for custom key->vkey
+    bindings to be implemented in the future.
+  * (Internal) Does not alternate between "falling" and "landed"
+    states when resetting lock delay on slide.
+
+_____________________________________________________________________
+0.02 (2006-06-19):
+  * Speed level progresses 1/3 as fast.
+  * Added menu for selecting a gimmick (game mode) to play.
+  * Added Marathon gimmick:
+    Like Vs. but no garbage.
+  * Added 40 lines gimmick:
+    Like Marathon but ends after 40 lines.
+  * Added 3 minutes gimmick (like Marathon but ends after 10800
+    frames).
+  * Added Rhythm gimmick:
+    20G, and if you fall below the minimum PPM, it automatically
+    locks the tetromino, and the minimum PPM increases by 10 every
+    64 tetrominoes.
+  * Debriefing computes PPM and score.
+  * Debriefing returns to gimmick selection instead of exiting
+    the program.
+
+_____________________________________________________________________
+0.01 (2006-06-14):
+  * initial release
+  * full SRS implemented
+  * 7-piece bag randomizer
+  * 1G DAS
+  * smooth falling animation
+  * playfield size: 10w x 24h; pieces start above row 20
+  * 8 next pieces and 1 hold piece
+  * Vs. gimmick:
+    Standard S.M.G., except before every I tetromino after the first,
+    you get 4 garbage lines.
+

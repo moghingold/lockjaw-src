@@ -1,0 +1,99 @@
+# Makefile for Game Boy Advance version of LOCKJAW
+#
+# Copr. 2006-2007 Damian Yerrick
+# 
+# This work is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+srcdir := src
+objdir := obj/gba
+EXE := $(objdir)/lj.elf
+ASSETSFILE := $(objdir)/assets.s
+INCGBA := -I$(DEVKITPRO)/libgba/include
+LIBGBA := -L$(DEVKITPRO)/libgba/lib -lgba
+THUMB_CFLAGS := -mthumb -Wall -O2 -std=gnu99 -mcpu=arm7tdmi
+ARM_CFLAGS := -marm -Wall -O2 -std=gnu99 -mcpu=arm7tdmi
+CC := arm-eabi-gcc -mthumb-interwork
+LD := arm-eabi-gcc -mthumb-interwork
+LDFLAGS := -mthumb -Wall -specs=gba_mb.specs
+
+MUSICOBJS := $(objdir)/gbasound.o $(objdir)/gbanotefreq.o
+MUSICLIBS := 
+
+# Objects
+
+LDLIBS := $(LIBGBA)
+DEPOBJS := $(objdir)/ljgba.o $(objdir)/gbaopt.o $(objdir)/gbaisr.o $(objdir)/ljplay.o $(objdir)/lj.o $(objdir)/gimmicks.o $(objdir)/wktables.o $(objdir)/macro.o $(objdir)/gba_asm.o $(MUSICOBJS)
+ASSETS := $(srcdir)/text.chr $(srcdir)/gbablk.chr
+#deleted: ljpc pcjoy options debrief ljreplay ljmusic
+
+OTHEROBJS := $(ASSETSFILE)
+
+run: lj.gba
+	start $<
+
+cf: lj.gba
+	cp lj.gba /h/gba/
+	ejector H:
+
+$(EXE): $(DEPOBJS) $(OTHEROBJS)
+	$(LD) $(LDFLAGS) $^ $(MUSICLIBS) $(LDLIBS) -o $@
+
+$(ASSETSFILE): $(ASSETS)
+	bin2s $^ > $@
+
+# Compilation rules
+
+%.gba: $(objdir)/%.elf
+	arm-eabi-objcopy -O binary $< $@
+	gbafix -tLOCKJAW $@
+
+$(objdir)/%.o: $(srcdir)/%.iwram.c
+	$(CC) $(ARM_CFLAGS) -MMD -c -o $@ $< $(INCGBA)
+	@cp $(objdir)/$*.d $(objdir)/$*.P; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $(objdir)/$*.d >> $(objdir)/$*.P; \
+	rm -f $(objdir)/$*.d
+
+$(objdir)/%.o: $(srcdir)/%.c
+	$(CC) $(THUMB_CFLAGS) -MMD -c -o $@ $< $(INCGBA)
+	@cp $(objdir)/$*.d $(objdir)/$*.P; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $(objdir)/$*.d >> $(objdir)/$*.P; \
+	rm -f $(objdir)/$*.d
+
+$(objdir)/%.o: $(srcdir)/%.s
+	$(CC) -MMD -c -o $@ $< $(INCGBA)
+	@cp $(objdir)/$*.d $(objdir)/$*.P; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $(objdir)/$*.d >> $(objdir)/$*.P; \
+	rm -f $(objdir)/$*.d
+    
+$(objdir)/%.o: $(objdir)/%.s
+	$(CC) -c -o $@ $<
+
+# Header dependencies
+
+-include $(DEPOBJS:%.o=%.P)
+
+
+# Cleanup rules
+.PHONY: clean run cf
+
+clean:
+	-rm $(objdir)/*.s
+	-rm $(objdir)/*.o
+	-rm $(objdir)/*.P
+

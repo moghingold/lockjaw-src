@@ -1,0 +1,89 @@
+# Makefile for Nintendo DS version of LOCKJAW
+#
+# Copr. 2006-2007 Damian Yerrick
+# 
+# This work is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+srcdir := src
+objdir := obj/ds
+EXE := $(objdir)/ljds.elf
+EXE7 := $(objdir)/ljds7.elf
+ASSETSFILE := $(objdir)/assets.s
+ASSETS := $(srcdir)/text.chr $(srcdir)/gbablk.chr
+ARMGCC=arm-eabi-gcc
+ARMOBJ=arm-eabi-objcopy
+CFLAGS7=-std=gnu99 -Wall -O2 -mcpu=arm7tdmi -mtune=arm7tdmi -fomit-frame-pointer -ffast-math -mthumb-interwork
+CFLAGS9=-std=gnu99 -Wall -O2 -mcpu=arm9tdmi -mtune=arm9tdmi -fomit-frame-pointer -ffast-math -mthumb-interwork
+NDSLIB_INCLUDE=$(DEVKITPRO)/libnds/include
+NDSLIB_LIB=$(DEVKITPRO)/libnds/lib
+DEPOBJS := $(objdir)/ljds.o $(objdir)/ljplay.o $(objdir)/lj.o $(objdir)/gimmicks.o $(objdir)/wktables.o $(objdir)/macro.o $(objdir)/gbaopt.o
+OBJS := $(DEPOBJS) $(ASSETSFILE)
+EMU := /e/ds/dualis/dualis
+GAMEICON := docs/dsicon.bmp
+
+.PHONY: run clean cf
+
+run: lj.nds
+	$(EMU) $<
+
+lj.nds: $(objdir)/ljds.bin $(objdir)/ljds7.bin $(GAMEICON)
+	ndstool -c $@ -9 $(objdir)/ljds.bin -7 $(objdir)/ljds7.bin -b $(GAMEICON) "LOCKJAW DS;The Soviet Mind Game"
+
+%.nds.gba: %.nds
+	dsbuild $< -o $@
+
+%.bin: %.elf
+	$(ARMOBJ) -O binary $< $@
+
+$(EXE): $(OBJS)
+	$(ARMGCC) -g -mthumb-interwork -mno-fpu -specs=ds_arm9.specs $^ -L$(NDSLIB_LIB) -lnds9 -o $@
+
+$(objdir)/ljds7.elf: $(objdir)/dsarm7.o
+	$(ARMGCC) -g -mthumb-interwork -mno-fpu -specs=ds_arm7.specs $^ -L$(NDSLIB_LIB) -lnds7 -o $@
+
+$(objdir)/%7.o: $(srcdir)/%7.c
+	$(ARMGCC) $(CFLAGS7) -I$(NDSLIB_INCLUDE) -MMD -DARM7 -c $< -o $@
+	@cp $(objdir)/$*.d $(objdir)/$*.P; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $(objdir)/$*.d >> $(objdir)/$*.P; \
+	rm -f $(objdir)/$*.d
+
+$(objdir)/%.o: $(srcdir)/%.c $(srcdir)/ljds.h
+	$(ARMGCC) $(CFLAGS9) -I$(NDSLIB_INCLUDE) -MMD -DARM9 -c $< -o $@
+	@cp $(objdir)/$*.d $(objdir)/$*.P; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $(objdir)/$*.d >> $(objdir)/$*.P; \
+	rm -f $(objdir)/$*.d
+
+%.o: %.s
+	$(ARMGCC) $(CFLAGS9) -I$(NDSLIB_INCLUDE) -MMD -DARM9 -c $< -o $@
+	@cp $(objdir)/$*.d $(objdir)/$*.P; \
+	sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
+	-e '/^$$/ d' -e 's/$$/ :/' < $(objdir)/$*.d >> $(objdir)/$*.P; \
+	rm -f $(objdir)/$*.d
+
+$(ASSETSFILE): $(ASSETS)
+	bin2s $^ > $@
+
+cf: lj.nds
+	cp lj.nds /h/
+	ejector H:
+
+clean:
+	-rm $(objdir)/*.s
+	-rm $(objdir)/*.o
+	-rm $(objdir)/*.P
+
+-include $(DEPOBJS:%.o=%.P)

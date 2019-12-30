@@ -1,0 +1,143 @@
+Future:
+  * Dual Marathon gimmick:
+    The keys control both a platform game (in the top window) and
+    standard S.M.G. (in the bottom window).  If you die on either
+    window, you lose.
+  * Ridin' Spinners gimmick:
+    Standard S.M.G., except if you abuse lock delay, or you make a
+    T-spin triple, the music changes to a cover of "Ridin' Spinners"
+    by Three 6 Mafia for a few seconds, and the screen spins (as in
+    TOD). 
+  * Wi-Fi Items gimmick:
+    3/4 of the time you start it, it will play annoying music for
+    two minutes, give an 86420 error, and quit. The rest of the
+    time, it will play annoying music for between 15 seconds and
+    two minutes and then switch to Vs. w/ Items gimmick.
+  * Expand pcjoy: two players, two pkeys per vkey per player
+  * Two-player modes
+  * Compose synchronized music for Rhythm mode
+  * H&R Blocks scoring method:
+    First spotted in freepuzzlearena Tetanus.  Each piece is either
+    entirely dark or entirely light.  A line of all dark or all light
+    scores as 2 lines.  Score for n lines is n*(n+1)*50.
+  * Store and display assertion text
+  * Change wall kick tables from set of arrays to array of structs,
+    where each struct represents a rotation system.
+  * Low res version for recording using free version of camstudio.
+  * Store keypress count in ljm.
+
+cdsboy wants:
+  * UI for skin switching
+  * Transparent playfield (seconded by Bloodstar)
+  * DTET rotation system, per wiki
+  * DTET rush mode (please describe this in detail)
+  * DTET lives (please describe this in detail)
+  * Editable option presets
+    The game keeps a list of named presets.  Each preset has a list
+    of options with a checkbox by each option's name.  If the box is
+    checked, the checkbox value overrides the base option value.
+    Player can choose two presets before playing; generally, these
+    will be a rotation system and a rule set (seconded by Needle,
+    kotetsu213, and jujube)
+  * Editable game keys presets (please describe the UI)
+  * Next above shadow (faint)
+
+Needle wants:
+  * Wall Kick Explorer and support for its .kick files
+    (to replace hardcoded tables in wktables.c)
+  * When ARE is turned on, don't require Down to be repressed until
+    the game gets fast.  (In TGM2, "fast" is level 900-998 of master
+    or all of death.)
+  * Skin control for sound effects (seconded by Cubicz)
+  * Switch background pic and/or music per section
+
+deepdorp wants:
+  * Editor for macros
+  * Macro saving and loading
+
+caffeine wants:
+  * Make Baboo! force infinite lock delay instead of 0g
+  * Move all skin-related files to folder "skin"
+  * Configure "console buttons" (Esc to pause, [ to record, ] to
+    play)
+  * Skip game over and ready go animations
+
+Joshua wants:
+  * Explosions (for Bombliss)
+
+Caithness wants:
+  * More realistic Vs. w/ Items gimmick (to be described later)
+  * More garbage options (to be described later)
+  * Let the user modify speed curves: for example, user should be
+    able to make rhythm speed up slower (to be described later)
+    (seconded by caffeine, Ezzelin, and zzo38computer)
+
+PetitPrince wants:
+  * Vs. Elite garbage style, described by submitter:
+    you get 7 garbages after random(1,7) seconds, then random(3,5)
+    garbage every random (5,20) seconds
+
+Lardarse wants:
+  * "Blackjack" language for custom randomizers, as described on
+    the wiki
+  * Bleep gimmick:
+    Player must clear row 1, 2, 1, 3, 1, 4, 1, 5, 1, ..., 20, 1.
+  * Four/five color Dr. M
+  * Six color puyo
+  * GBA: Ready, go, countdown, win, lose sounds
+  * Symmetric Arika, which prefers left kicks over right kicks when
+    rotating to the left
+  * Option for preset hold piece: none (current behavior), random,
+    I, J, L, O, S, T, Z, I2, I3, L3
+  * Separate goal and countdown code out of gimmicks into an option,
+    controlled by LJField::goalType.  Goals include none, lines,
+    level, score, and time, which activate comparisons against
+    goalCount. (seconded by caffeine)
+
+Bloodstar wants:
+  * Option for garbage density
+  * Option for garbage randomness
+  * PC: Skin sets size of blocks, not hardcoded 24x24 pixels
+  * PC: Skin sets size of window, not hardcoded 800x600 pixels
+  * PC: After two-player modes work, allow Internet play
+  * PC: FreeType support
+  * PC: AVI export based on code from FCE Ultra
+  * PC: Add Game_Music_Emu to LJMusic
+  * PC: Second music that plays when blocks are over a certain height
+  * GBA: Integrate Pimpmobile music engine
+  * GBA: Debrief (seconded by zzo38computer)
+
+matt_hatter83 wants:
+  * Customizable speedometer algorithm (1 to 10, cumulative)
+
+Cubicz wants:
+  * Speedometer in "Next at right" mode
+  * High score table (seconded by Ezzelin)
+  * Speed graph in debrief
+  * PC: Thematic options menu (like the GBA)
+
+Ezzelin wants:
+  * Put user-created rulesets in
+    $HOME/.lockjaw/rules/ (Unix)
+    %appdata%\Pin Eight\lockjaw\rules\ (Windows)
+
+4matsy wants:
+  * Double buffer entire screen, not just the well.
+  * Option to draw sprite pieces (next, hold) without
+    clipping to the well edges.
+
+bob_fossil wants:
+  * Real DS music and sound effects engine
+
+zzo38computer wants:
+  * Bastet randomizer
+
+Zed0 wants:
+  * Tetrinet client
+
+Rosti LFC wants:
+  * 7-piece Bag, first tetromino always I, J, L, or T (seconded by
+    Cubicz)
+
+kiwibonga wants:
+  * Line clear animation

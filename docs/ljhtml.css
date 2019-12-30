@@ -1,0 +1,47 @@
+body {
+  margin: 0 0 1em 0; font-family: Bitstream Vera Sans, sans-serif
+}
+h1 {
+  height: 192px; margin: 0; padding: 0 1em; background: url(titlebarbg.png); color: #FFF
+}
+h1 img {
+  vertical-align: middle;
+}
+#content {
+  margin: 0; padding: 1em 2em;
+  color: #000; background: #FFF
+}
+#linkbar {
+  position: absolute; top: 1em; left: 480px; color: #fff; margin: 0; font-size: 120%;
+  padding-left: 1em
+}
+#linkbar a:link { color: #99f }
+#linkbar a:visited { color: #f69 }
+#linkbar a:hover { color: #ccf }
+#linkbar a:active { color: #fff }
+
+.precis  {
+  margin: 2em 2em 2em 2em;
+  border: 1px solid #c00;
+  background: #ffc;
+  padding: 1em 2em 1em 2em;
+  font-size: 120%;
+}
+
+.precis-ad  {
+  margin: 2em 160px 2em 2em;
+  border: 1px solid #c00;
+  background: #ffc;
+  padding: 1em 2em 1em 2em;
+  font-size: 120%;
+}
+
+.screenshot {
+  float: right;
+  margin: 0 0 1em 2em;
+  font-size: 80%;
+}
+
+img.screenshot, .screenshot img {
+  border: 0px none;
+}

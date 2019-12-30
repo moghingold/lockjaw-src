@@ -1,0 +1,1105 @@
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:23
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.70
+Played 7 tetrominoes (73.68 per minute)
+Pressed 16 keys (2.28 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 24 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:23
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.40
+Played 9 tetrominoes (100.00 per minute)
+Pressed 22 keys (2.44 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 22 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:26
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 1:26.58
+Played 106 tetrominoes (73.45 per minute)
+Pressed 354 keys (3.33 per tetromino)
+
+Made 30 lines
+(single: 8; double: 4; triple: 2; home run: 2; T single: 0; T double: 0; T triple: 0)
+Sent 16 garbage (11.08 per minute)
+Left 120 blocks behind
+
+LJ score: 6200
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:26
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:09.53
+Played 22 tetrominoes (138.46 per minute)
+Pressed 45 keys (2.04 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 88 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:27
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:35.38
+Played 60 tetrominoes (101.74 per minute)
+Pressed 166 keys (2.76 per tetromino)
+
+Made 17 lines
+(single: 3; double: 0; triple: 2; home run: 2; T single: 0; T double: 0; T triple: 0)
+Sent 13 garbage (22.04 per minute)
+Left 62 blocks behind
+
+LJ score: 4300
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:27
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:11.21
+Played 14 tetrominoes (74.88 per minute)
+Pressed 46 keys (3.28 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 52 blocks behind
+
+LJ score: 0
+
+
+Stopped Marathon
+on 2018-12-16 at 02:27
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:13.30
+Played 23 tetrominoes (103.75 per minute)
+Pressed 59 keys (2.56 per tetromino)
+
+Made 3 lines
+(single: 3; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 62 blocks behind
+
+LJ score: 300
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:28
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:08.83
+Played 17 tetrominoes (115.47 per minute)
+Pressed 33 keys (1.94 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 68 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:28
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:32.86
+Played 47 tetrominoes (85.80 per minute)
+Pressed 136 keys (2.89 per tetromino)
+
+Made 6 lines
+(single: 2; double: 2; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 2 garbage (3.65 per minute)
+Left 124 blocks behind
+
+LJ score: 1000
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:29
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:14.18
+Played 24 tetrominoes (101.52 per minute)
+Pressed 58 keys (2.41 per tetromino)
+
+Made 2 lines
+(single: 2; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 76 blocks behind
+
+LJ score: 200
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:29
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.70
+Played 13 tetrominoes (136.84 per minute)
+Pressed 24 keys (1.84 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 52 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:29
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:18.30
+Played 34 tetrominoes (111.47 per minute)
+Pressed 93 keys (2.73 per tetromino)
+
+Made 5 lines
+(single: 1; double: 0; triple: 0; home run: 1; T single: 0; T double: 0; T triple: 0)
+Sent 4 garbage (13.11 per minute)
+Left 82 blocks behind
+
+LJ score: 1300
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:29
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:04.25
+Played 15 tetrominoes (211.76 per minute)
+Pressed 18 keys (1.20 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 56 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:30
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:41.91
+Played 62 tetrominoes (88.74 per minute)
+Pressed 184 keys (2.96 per tetromino)
+
+Made 13 lines
+(single: 5; double: 2; triple: 0; home run: 1; T single: 0; T double: 0; T triple: 0)
+Sent 6 garbage (8.58 per minute)
+Left 118 blocks behind
+
+LJ score: 2500
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:30
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:15.48
+Played 26 tetrominoes (100.75 per minute)
+Pressed 69 keys (2.65 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 90 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:30
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.61
+Played 13 tetrominoes (138.87 per minute)
+Pressed 24 keys (1.84 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 52 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:30
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:03.98
+Played 15 tetrominoes (225.94 per minute)
+Pressed 19 keys (1.26 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 60 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:32
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 1:12.63
+Played 108 tetrominoes (89.21 per minute)
+Pressed 344 keys (3.18 per tetromino)
+
+Made 30 lines
+(single: 5; double: 5; triple: 1; home run: 3; T single: 0; T double: 0; T triple: 0)
+Sent 19 garbage (15.69 per minute)
+Left 128 blocks behind
+
+LJ score: 6800
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:32
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:23.13
+Played 37 tetrominoes (95.96 per minute)
+Pressed 100 keys (2.70 per tetromino)
+
+Made 8 lines
+(single: 1; double: 2; triple: 1; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 4 garbage (10.37 per minute)
+Left 68 blocks behind
+
+LJ score: 1600
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:32
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:06.15
+Played 17 tetrominoes (165.85 per minute)
+Pressed 33 keys (1.94 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 58 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:32
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:03.43
+Played 15 tetrominoes (262.13 per minute)
+Pressed 18 keys (1.20 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 56 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:33
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:20.80
+Played 33 tetrominoes (95.19 per minute)
+Pressed 95 keys (2.87 per tetromino)
+
+Made 4 lines
+(single: 0; double: 0; triple: 0; home run: 1; T single: 0; T double: 0; T triple: 0)
+Sent 4 garbage (11.53 per minute)
+Left 92 blocks behind
+
+LJ score: 1200
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:33
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:16.20
+Played 21 tetrominoes (77.77 per minute)
+Pressed 64 keys (3.04 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 74 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:34
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:18.11
+Played 32 tetrominoes (105.97 per minute)
+Pressed 91 keys (2.84 per tetromino)
+
+Made 3 lines
+(single: 1; double: 1; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 1 garbage (3.31 per minute)
+Left 94 blocks behind
+
+LJ score: 500
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:34
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:04.36
+Played 15 tetrominoes (206.10 per minute)
+Pressed 23 keys (1.53 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 60 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:35
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:56.53
+Played 88 tetrominoes (93.39 per minute)
+Pressed 278 keys (3.15 per tetromino)
+
+Made 24 lines
+(single: 5; double: 2; triple: 1; home run: 3; T single: 0; T double: 0; T triple: 0)
+Sent 17 garbage (18.04 per minute)
+Left 112 blocks behind
+
+LJ score: 5800
+
+
+Stopped 40 lines
+on 2018-12-16 at 02:35
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:49.53
+Played 81 tetrominoes (98.11 per minute)
+Pressed 233 keys (2.87 per tetromino)
+
+Made 21 lines
+(single: 11; double: 2; triple: 2; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 6 garbage (7.26 per minute)
+Left 110 blocks behind
+
+LJ score: 3300
+
+
+Cleared 40 lines
+on 2018-12-16 at 02:37
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 1:09.33
+Played 103 tetrominoes (89.13 per minute)
+Pressed 342 keys (3.32 per tetromino)
+
+Made 40 lines
+(single: 8; double: 1; triple: 2; home run: 6; T single: 0; T double: 0; T triple: 0)
+Sent 32 garbage (27.69 per minute)
+Left 8 blocks behind
+
+LJ score: 10400
+
+
+Stopped 40 lines
+on 2018-12-16 at 03:25
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.10
+Played 5 tetrominoes (58.82 per minute)
+Pressed 21 keys (4.20 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 16 blocks behind
+
+LJ score: 0
+
+
+Cleared 40 lines
+on 2018-12-16 at 03:27
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 1:23.65
+Played 116 tetrominoes (83.20 per minute)
+Pressed 379 keys (3.26 per tetromino)
+
+Made 40 lines
+(single: 17; double: 4; triple: 1; home run: 3; T single: 0; T double: 0; T triple: 0)
+Sent 19 garbage (13.62 per minute)
+Left 64 blocks behind
+
+LJ score: 7800
+
+
+Stopped Marathon
+on 2018-12-18 at 20:43
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:06.53
+Played 12 tetrominoes (110.20 per minute)
+Pressed 34 keys (2.83 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 40 blocks behind
+
+LJ score: 0
+
+
+Cleared 40 lines
+on 2018-12-18 at 20:44
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 1:01.93
+Played 109 tetrominoes (105.59 per minute)
+Pressed 352 keys (3.22 per tetromino)
+
+Made 41 lines
+(single: 4; double: 5; triple: 1; home run: 6; T single: 0; T double: 0; T triple: 0)
+Sent 34 garbage (32.93 per minute)
+Left 26 blocks behind
+
+LJ score: 10900
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:45
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.13
+Played 8 tetrominoes (93.50 per minute)
+Pressed 15 keys (1.87 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 28 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:45
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:03.23
+Played 4 tetrominoes (74.22 per minute)
+Pressed 8 keys (2.00 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:45
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:04.13
+Played 8 tetrominoes (116.12 per minute)
+Pressed 19 keys (2.37 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 28 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:45
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.00
+Played 4 tetrominoes (120.00 per minute)
+Pressed 7 keys (1.75 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:46
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:03.03
+Played 7 tetrominoes (138.46 per minute)
+Pressed 15 keys (2.14 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 24 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:46
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.13
+Played 5 tetrominoes (140.62 per minute)
+Pressed 7 keys (1.40 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 16 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:46
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:11.43
+Played 20 tetrominoes (104.95 per minute)
+Pressed 64 keys (3.20 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 76 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:46
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:01.93
+Played 4 tetrominoes (124.13 per minute)
+Pressed 7 keys (1.75 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:46
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:12.13
+Played 23 tetrominoes (113.73 per minute)
+Pressed 63 keys (2.73 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 78 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:47
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.13
+Played 4 tetrominoes (112.50 per minute)
+Pressed 5 keys (1.25 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:47
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:04.40
+Played 9 tetrominoes (122.72 per minute)
+Pressed 23 keys (2.55 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 22 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:47
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:25.50
+Played 45 tetrominoes (105.88 per minute)
+Pressed 150 keys (3.33 per tetromino)
+
+Made 9 lines
+(single: 1; double: 0; triple: 0; home run: 2; T single: 0; T double: 0; T triple: 0)
+Sent 9 garbage (21.17 per minute)
+Left 86 blocks behind
+
+LJ score: 2700
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:47
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:06.90
+Played 14 tetrominoes (121.73 per minute)
+Pressed 41 keys (2.92 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 52 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:48
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:01.85
+Played 4 tetrominoes (129.72 per minute)
+Pressed 7 keys (1.75 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:48
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:15.51
+Played 26 tetrominoes (100.53 per minute)
+Pressed 83 keys (3.19 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 90 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:48
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:16.50
+Played 33 tetrominoes (120.00 per minute)
+Pressed 93 keys (2.81 per tetromino)
+
+Made 5 lines
+(single: 1; double: 0; triple: 0; home run: 1; T single: 0; T double: 0; T triple: 0)
+Sent 4 garbage (14.54 per minute)
+Left 78 blocks behind
+
+LJ score: 1300
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:48
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:11.78
+Played 23 tetrominoes (117.11 per minute)
+Pressed 65 keys (2.82 per tetromino)
+
+Made 2 lines
+(single: 0; double: 1; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 1 garbage (5.09 per minute)
+Left 68 blocks behind
+
+LJ score: 400
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:49
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:07.01
+Played 14 tetrominoes (119.71 per minute)
+Pressed 39 keys (2.78 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 42 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:49
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.51
+Played 8 tetrominoes (87.00 per minute)
+Pressed 25 keys (3.12 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 28 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:49
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.33
+Played 5 tetrominoes (128.57 per minute)
+Pressed 8 keys (1.60 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 16 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:49
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:03.10
+Played 2 tetrominoes (38.70 per minute)
+Pressed 9 keys (4.50 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 4 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:49
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:13.63
+Played 26 tetrominoes (114.42 per minute)
+Pressed 68 keys (2.61 per tetromino)
+
+Made 3 lines
+(single: 3; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 70 blocks behind
+
+LJ score: 300
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:49
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.01
+Played 3 tetrominoes (89.25 per minute)
+Pressed 8 keys (2.66 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 8 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:50
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:12.53
+Played 20 tetrominoes (95.74 per minute)
+Pressed 68 keys (3.40 per tetromino)
+
+Made 5 lines
+(single: 2; double: 0; triple: 1; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 2 garbage (9.57 per minute)
+Left 26 blocks behind
+
+LJ score: 900
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:50
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:07.38
+Played 15 tetrominoes (121.89 per minute)
+Pressed 39 keys (2.60 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 56 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:50
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:04.81
+Played 11 tetrominoes (137.02 per minute)
+Pressed 28 keys (2.54 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 30 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-21 at 22:50
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:09.60
+Played 20 tetrominoes (125.00 per minute)
+Pressed 58 keys (2.90 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 72 blocks behind
+
+LJ score: 0
+
+
+Stopped Marathon
+on 2019-02-26 at 18:34
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:07.01
+Played 12 tetrominoes (102.61 per minute)
+Pressed 33 keys (2.75 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 34 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-26 at 18:35
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:05.76
+Played 19 tetrominoes (197.68 per minute)
+Pressed 34 keys (1.78 per tetromino)
+
+Made 1 lines
+(single: 1; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 62 blocks behind
+
+LJ score: 100
+
+
+Stopped 40 lines
+on 2019-02-26 at 18:35
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.45
+Played 4 tetrominoes (97.95 per minute)
+Pressed 8 keys (2.00 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-26 at 18:35
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:02.26
+Played 4 tetrominoes (105.88 per minute)
+Pressed 6 keys (1.50 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 12 blocks behind
+
+LJ score: 0
+
+
+Stopped 40 lines
+on 2019-02-26 at 18:35
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:07.11
+Played 12 tetrominoes (101.17 per minute)
+Pressed 30 keys (2.50 per tetromino)
+
+Made 0 lines
+(single: 0; double: 0; triple: 0; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 0 garbage (0.00 per minute)
+Left 44 blocks behind
+
+LJ score: 0
+
+
+Stopped Marathon
+on 2019-02-26 at 18:36
+(rot=SRS, lock=Move reset, rnd=7-piece Bag, spin=3-corner T, speed=Zero)
+(grav=Naive, drop=None, are=0 ms, das=50 ms Instant, shadow=Faint color, next=3 pieces)
+
+Played for 0:27.73
+Played 42 tetrominoes (90.86 per minute)
+Pressed 153 keys (3.64 per tetromino)
+
+Made 13 lines
+(single: 6; double: 2; triple: 1; home run: 0; T single: 0; T double: 0; T triple: 0)
+Sent 4 garbage (8.65 per minute)
+Left 34 blocks behind
+
+LJ score: 2100
